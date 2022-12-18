@@ -7,7 +7,7 @@ services:
     container_name: webdav
     restart: unless-stopped
     volumes:
-      - ./webdav:/media
+      - ./share:/media
     ports:
       - "8200:80"
     env_file: .env      
