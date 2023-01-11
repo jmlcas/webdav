@@ -10,9 +10,16 @@ Ver en "localhost:8200"
 Desde otros PCs en la red: "IP:puerto" ó "dominio"
 
 Puedes editar, subir y eliminar archivos desde otro PC linux en la misma red:
+
 Abre Archivos y en la barra de navegación: dav://IP:puerto 
 
 Desde la terminal:
-cadaver http://IP:puerto
-con ls verás los archivos
+
+cadaver http://IP:puerto y pulsando ls verás los archivos
+
+Si no tienes la app cadaver, la puedes instalar con 
+
+sudo apt install cadaver
+
+
 
