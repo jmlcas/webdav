@@ -1,5 +1,3 @@
-version: "3.3"
-
 services:
 
   webdav:
@@ -15,4 +13,3 @@ services:
       - TZ=Europe/Madrid
       - PUID=1000
       - PGID=1000
-
