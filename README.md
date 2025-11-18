@@ -1,12 +1,13 @@
-# webdav
-Webdav - Docker compose
+# Webdav
+
+Ver en "http://localhost:8200" 
+
+-----------------------------
+
 
 Puedes también, si lo deseas modificar el archivo .env
 
 Añade tu archivos a compartir en la carpeta share
-
-Ver en "localhost:8200" 
-
 
 Accede desde otros PCs en la red: "IP:puerto" ó "dominio"
 
@@ -21,6 +22,4 @@ cadaver http://IP:puerto y pulsando ls verás los archivos
 Si no tienes la app cadaver, la puedes instalar con 
 
 sudo apt install cadaver
-
-
 
